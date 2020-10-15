@@ -5,6 +5,9 @@ language: c
 
 os:
     - linux
+arch:
+ - amd64
+ - ppc64le    
 
 # Setting sudo to false opts in to Travis-CI container-based builds.
 sudo: false
